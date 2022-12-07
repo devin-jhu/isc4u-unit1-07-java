@@ -97,8 +97,8 @@ final class Marks {
     * @param args No args will be used
     */
     public static void main(final String[] args) {
-        final ArrayList<String> students1 = new ArrayList<String>();
-        final ArrayList<String> unit2 = new ArrayList<String>();
+        final ArrayList<String> studentsList = new ArrayList<String>();
+        final ArrayList<String> unitsList = new ArrayList<String>();
         final Path studentFilePath = Paths.get(args[0]);
         final Path unitFilePath = Paths.get(args[1]);
         final Charset charset = Charset.forName("UTF-8");
